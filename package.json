@@ -1,13 +1,14 @@
 {
-  "name": "vue-router-generator",
+  "name": "vue-routes-generator",
   "version": "0.0.1",
-  "description": "Simple File based routing for Vue",
+  "description": "Simple folder based router generator for Vue Router",
   "main": "main.ts",
   "type": "module",
   "engines": {
     "node": ">=20.9.0"
   },
   "scripts": {
+    "build": "tsc",
     "test": "vitest"
   },
   "repository": {
@@ -25,6 +26,11 @@
   },
   "homepage": "https://github.com/rvvenn/vue-app-router#readme",
   "devDependencies": {
+    "@types/node": "^22.13.2",
+    "typescript": "^5.7.3",
     "vitest": "^3.0.5"
+  },
+  "dependencies": {
+    "vue-router": "^4.5.0"
   }
 }

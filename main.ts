@@ -1,1 +1,1 @@
-export { generateRoutes } from "src/appRoutes" 
+export { default as createRoutes } from "./src/createRoutes"
