@@ -1,0 +1,30 @@
+{
+  "name": "vue-router-generator",
+  "version": "0.0.1",
+  "description": "Simple File based routing for Vue",
+  "main": "main.ts",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvvenn/vue-app-router.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-router"
+  ],
+  "author": "rvven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rvvenn/vue-app-router/issues"
+  },
+  "homepage": "https://github.com/rvvenn/vue-app-router#readme",
+  "devDependencies": {
+    "vitest": "^3.0.5"
+  }
+}
