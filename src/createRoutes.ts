@@ -4,9 +4,20 @@ import type { CreateRoutesConfig } from "@/types/create-routes"
 const createRoutes = ({
   source = "src/app",
   i18n,
-  type = "folder"
+  type = "folder",
+  testRoutes,
 }: CreateRoutesConfig): readonly RouteRecordRaw[] => {
-  return []
+  
+  const folderPaths = testRoutes;
+
+  console.log(folderPaths)
+
+  return [
+    {
+      path: "",
+      component: () => import("app/page.vue"),
+    }
+  ]
 }
 
 export default createRoutes;
